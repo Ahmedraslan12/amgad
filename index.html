@@ -3,100 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DR Amgad Kamel - Profile Card</title>
+  <title>Ahmed Raslan - Digital Card</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f0f2f5;
+      font-family: Arial, sans-serif;
+      background-color: #0b1e39; /* أزرق غامق */
+      color: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      margin: 0;
     }
     .card {
-      background: #fff;
-      border-radius: 15px;
+      background-color: #13294b;
       padding: 30px;
+      border-radius: 15px;
       text-align: center;
-      max-width: 600px;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      max-width: 400px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
     }
     .card img {
-      width: 180px;
-      height: 180px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid #0077b5;
-      margin-bottom: 20px;
-    }
-    .card h1 {
-      margin: 10px 0 5px 0;
-      font-size: 2em;
-      color: #0077b5;
+      margin-bottom: 15px;
+      border: 3px solid #fff;
     }
     .card h2 {
-      margin: 0 0 15px 0;
-      font-size: 1.2em;
-      font-weight: 500;
-      color: #555;
+      margin: 10px 0 5px;
+      font-size: 22px;
     }
-    .card p {
-      margin: 6px 0;
-      color: #333;
+    .card h4 {
+      margin: 5px 0 15px;
+      font-weight: normal;
+      color: #a9c2e8;
     }
-    .card a {
-      color: #0077b5;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    .card a:hover {
-      text-decoration: underline;
-    }
-    .social-icons {
+    .info {
+      text-align: left;
       margin-top: 20px;
     }
-    .social-icons a {
-      margin: 0 10px;
-      display: inline-block;
+    .info p {
+      margin: 8px 0;
+      font-size: 15px;
     }
-    .social-icons img {
-      width: 40px;
-      height: 40px;
-      border-radius: 8px;
-      transition: transform 0.2s;
+    .info i {
+      margin-right: 8px;
+      color: #4da3ff;
     }
-    .social-icons img:hover {
-      transform: scale(1.1);
+    .desc {
+      margin-top: 20px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #d0e1ff;
+      text-align: justify;
     }
   </style>
 </head>
 <body>
   <div class="card">
-    <img src="amgad-kamel.jpg" alt="DR Amgad Kamel">
-    <h1>DR / Amgad Kamel</h1>
-    <h2>Chairman & CEO</h2>
-    <p><strong>Company:</strong> ALAMEIN FOR SILICON PRODUCTS</p>
-    <p><strong>Mobile:</strong> 01003687280</p>
-    <p><strong>Telephone:</strong> 0223228160</p>
-    <p><strong>Fax:</strong> 23228162</p>
-    <p><strong>Email:</strong> 
-      <a href="mailto:Amgad-kamel@ASP-eg.org">Amgad-kamel@ASP-eg.org</a>
-    </p>
-
-    <div class="social-icons">
-      <!-- WhatsApp -->
-      <a href="https://wa.me/201003687280" target="_blank">
-        <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp">
-      </a>
-      <!-- Email -->
-      <a href="mailto:Amgad-kamel@ASP-eg.org">
-        <img src="https://img.icons8.com/color/48/microsoft-outlook-2019--v1.png" alt="Email">
-      </a>
-      <!-- Phone Call -->
-      <a href="tel:+201003687280">
-        <img src="https://img.icons8.com/color/48/phone.png" alt="Call">
-      </a>
+    <img src="raslan.jpg" alt="Ahmed Raslan">
+    <h2>Ahmed Raslan</h2>
+    <h4>Electrical Project Engineer<br>ALAMEIN FOR SILICON PRODUCTS</h4>
+    
+    <div class="info">
+      <p><i class="fas fa-phone"></i> +201142850103</p>
+      <p><i class="fas fa-envelope"></i> Ahmed-Raslan@asp-eg.org</p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/ahmed-raslan-a488b2192" style="color:#4da3ff; text-decoration:none;">LinkedIn Profile</a></p>
+      <p><i class="fas fa-map-marker-alt"></i> 27 Al Salam Avenue, Zahrat Al-Louts,<br>5th Settlement, New Cairo, Egypt</p>
+    </div>
+    
+    <div class="desc">
+      Passionate and results-driven Electrical Engineer with hands-on experience in field execution and technical office operations, focusing on power systems, project studies, and power station development.
     </div>
   </div>
 </body>
